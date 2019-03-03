@@ -5,7 +5,7 @@
 2.  * email
         * Yarokhovichalex@mail.ru
     * phone
-        *+375293801378
+        * +375293801378
 3. I want to learn how to program in js. He taught programming at the university, but without enthusiasm. Now the goal is to change jobs and become a programmer.
 4. CSS, HTML, JS
 5.''' CSS
