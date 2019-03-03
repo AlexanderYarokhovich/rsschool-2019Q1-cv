@@ -8,8 +8,8 @@
         * +375293801378
 3. I want to learn how to program in js. He taught programming at the university, but without enthusiasm. Now the goal is to change jobs and become a programmer.
 4. CSS, HTML, JS
-5. ` CSS
- .page-header,
+5.  CSS
+ ` .page-header,
 .page-footer {
     padding: 10px;
     background-color: #eeeeee;
@@ -31,7 +31,7 @@
 
 .price-list td {
     border: 1px solid #333333;
-}`
+} `
 6. Study on HTMLacademy, laboratory work at the university
 7. BSUIR
 8. A2 (Elementary English)
