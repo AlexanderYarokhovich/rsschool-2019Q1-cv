@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML, CSS & Git Basics</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Maven+Pro"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__section">
+        <h1>HTML, CSS & Git Basics</h1>
+        <article class="header__photo-block">
+          <div class="photo-block__photo">
+            <figure class="photo__img">
+              <img src="assets/photo.png" alt="me" />
+              <figcaption>Yarokhovich Alexandr</figcaption>
+            </figure>
+          </div>
+          <div class="photo-block__contacts">
+            <h2 class="photo-block__name">Yarokhovich Alexandr</h2>
+            <div class="photo-block__contact-info">
+              <p class="contact-info__address">
+                <i class="fas fa-map-marker-alt"></i> Minsk
+              </p>
+              <p class="contact-info__phone">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+35283318635"> + 375 (29) 380 13 78</a>
+              </p>
+              <p class="contact-info__email">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@hexalcorp.com"> Yarokhovichalex@mail.ru</a>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </header>
+    <main>
+      <section class="main-content">
+        <h2>About me</h2>
+        <aside class="main-content__summary">
+          <h2 class="summary__header">Summary</h2>
+          <p class="summary__description">I want to learn how to program in js. He taught programming at the university, but without enthusiasm. Now the goal is to change jobs and become a programmer.</p>
+        </aside>
+        <aside class="main-content__program-level">
+          <h2 class="program-level__header">Programming Level</h2>
+          <p class="program-level__description">
+            I am a novice programmer
+          </p>
+        </aside>
+        <aside class="main-content__examples">
+          <h2 class="examples__header">Examples</h2>
+          <pre class="examples__description">
+            function addArticle(e) {
+              e.preventDefault();
+              const title = doc.getElementById('title').value;
+              const image = doc.getElementById('image').value;
+              const content = doc.getElementById('content').value;
+              const data = {
+                title,
+                image,
+                content
+              }; 
+            }
+          </pre>
+        </aside>
+        <aside class="main-content__experience">
+          <h2 class="experience__header">Experience</h2>
+          <p class="experience__description">
+            Study on HTMLacademy, laboratory work at the university
+          </p>
+        </aside>
+        <aside class="main-content__education">
+          <h2 class="education__header">Education</h2>
+          <p class="education__description">
+            BSUIR
+          </p>
+        </aside>
+        <aside class="main-content__english-level">
+          <h2 class="english-level__header">English Level</h2>
+          <p class="english-level__description">
+            A2 (Elementary English)
+          </p>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
